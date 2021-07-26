@@ -12,16 +12,154 @@ import {
   SafeAreaView,
   StyleSheet
 } from 'react-native';
-import EvilIcons from "react-native-vector-icons/EvilIcons";
-import AntDesign from "react-native-vector-icons/AntDesign";
+
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 
+const PROFILES = [
+  {
+    key: '1',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
 
+  },
+  {
+    key: '2',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
+
+  },
+  {
+    key: '3',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
+
+  },
+  {
+    key: '4',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
+
+
+  },
+  {
+    key: '5',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
+
+  },
+  {
+    key: '6',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
+
+  },
+  {
+    key: '7',
+    name: 'VISA',
+    p: require('../../assets/profile.png')
+
+  }
+];
+const HOSPITALS = [
+  {
+    key: '1',
+    name: 'Hospital 1',
+    p: require('../../assets/home.jpg')
+
+  },
+  {
+    key: '2',
+    name: 'Hospital 1',
+    p: require('../../assets/home.jpg')
+
+  },
+  {
+    key: '3',
+    name: 'Hospital 1',
+    p: require('../../assets/home.jpg')
+
+  },
+  {
+    key: '4',
+    name: 'Hospital 1',
+    p: require('../../assets/home.jpg')
+
+
+  },
+  {
+    key: '5',
+    name: 'VIHospital 1SA',
+    p: require('../../assets/profile.png')
+
+  },
+  {
+    key: '6',
+    name: 'Hospital 1',
+    p: require('../../assets/home.jpg')
+
+  },
+  {
+    key: '7',
+    name: 'Hospital 1',
+    p: require('../../assets/home.jpg')
+
+  }
+];
+const HOSTS = [
+  {
+    key: '1',
+    name: 'HOST 1',
+    p: require('../../assets/home.png')
+
+  },
+  {
+    key: '2',
+    name: 'HOST 1',
+    p: require('../../assets/home.png')
+
+  },
+  {
+    key: '3',
+    name: 'HOST 1',
+    p: require('../../assets/home.png')
+
+  },
+  {
+    key: '4',
+    name: 'HOST 1',
+    p: require('../../assets/home.png')
+
+
+  },
+  {
+    key: '5',
+    name: 'HOST 1SA',
+    p: require('../../assets/profile.png')
+
+  },
+  {
+    key: '6',
+    name: 'HOST 1',
+    p: require('../../assets/home.png')
+
+  },
+  {
+    key: '7',
+    name: 'HOST 1',
+    p: require('../../assets/home.png')
+
+  }
+];
 const HomeScreen = props => {
   return (
     <View>
-      <ScrollView>
+      <ScrollView
+        style={{
+          backgroundColor: "#dedede",
+
+
+        }}>
         <ScrollView>
           <SafeAreaView style={{ flex: 1, color: "#ffffff" }}>
             <View
@@ -125,171 +263,416 @@ const HomeScreen = props => {
             backgroundColor: "#dedede",
             width: wp('100%'),
             height: hp('10%'),
-            borderWidth: 1,
 
           }}>
           <Text style={{
             marginLeft: wp('2%'),
-            fontSize: wp('5%'),
+            fontSize: wp('7%'),
             fontWeight: 'bold'
 
           }}>Hot Contacts</Text>
         </View>
 
 
+
+
+        <View
+          style={{
+            backgroundColor: "#d3d3d3",
+            width: wp('100%'),
+            height: hp('40%'),
+
+          }}>
+          <View
+            style={{
+              backgroundColor: "#dedede",
+              width: wp('100%'),
+              height: hp('7%'),
+
+            }}>
+            <Text style={{
+              marginTop: hp('1%'), marginLeft: wp('2%'),
+              fontSize: wp('7%'),
+              fontWeight: 'bold',
+
+
+            }}>Hospitals</Text>
+          </View>
+          <FlatList
+
+            data={HOSPITALS}
+            style={styles.gridView}
+            staticDimension={115}
+            // fixed
+            horizontal={true}
+            spacing={25}
+            // keyExtractor={item.key}
+            renderItem={({ item }) => (
+              <>
+
+                <TouchableOpacity style={{
+                  marginLeft: wp('2%'),
+                  marginTop: hp('2%'),
+                  backgroundColor: "#dedede",
+                  width: wp('30%'),
+                  height: hp('30%'),
+                  alignItems: 'center',
+                  borderRadius: 10,
+
+                }}>
+                  <Image style={{
+                    width: wp('30%'),
+                    height: hp('30%'),
+
+                    borderRadius: 10,
+
+                  }} source={item.p} />
+                  <Text style={{
+                    marginTop: hp('-7%'),
+                    fontSize: wp('5%'),
+                    fontWeight: 'bold',
+                    color: 'white'
+
+                  }}>{item.name}</Text>
+                </TouchableOpacity>
+
+              </>
+            )}
+          />
+        </View>
+        <View
+          style={{
+            backgroundColor: "gra",
+            width: wp('100%'),
+            height: hp('17%'),
+          }}>
+          <View
+            style={{
+              backgroundColor: "#dedede",
+              width: wp('100%'),
+              height: hp('7%'),
+
+            }}>
+            <Text style={{
+              marginTop: hp('1%'), marginLeft: wp('2%'),
+              fontSize: wp('7%'),
+              fontWeight: 'bold',
+
+
+            }}>Friends</Text>
+          </View>
+          <FlatList
+
+            data={PROFILES}
+            style={styles.gridView}
+            staticDimension={115}
+            // fixed
+            horizontal={true}
+            spacing={25}
+            // keyExtractor={item.key}
+            renderItem={({ item }) => (
+              <>
+
+                <TouchableOpacity style={{
+                  marginLeft: wp('1%'),
+                  marginTop: hp('1%'),
+                  backgroundColor: "#d3d3d3",
+                  width: wp('15%'),
+                  height: hp('7%'),
+                  alignItems: 'center',
+
+
+                }}>
+                  <Image style={{
+                    width: wp('17%'),
+                    height: hp('7.5%'),
+                  }} source={item.p} />
+                </TouchableOpacity>
+
+              </>
+            )}
+          />
+        </View>
+
         <View
           style={{
             backgroundColor: "#dedede",
             width: wp('100%'),
             height: hp('40%'),
-            borderWidth: 1,
-
           }}>
-          <Text style={{
-            marginLeft: wp('2%'),
-            fontSize: wp('5%'),
-            fontWeight: 'bold'
 
-          }}>Hospitals</Text>
+          <View
+            style={{
+              backgroundColor: "#dedede",
+              width: wp('100%'),
+              height: hp('7%'),
 
+            }}>
+            <Text style={{
+              marginTop: hp('1%'), marginLeft: wp('2%'),
+              fontSize: wp('7%'),
+              fontWeight: 'bold',
+
+
+            }}>Nurse's Dose Blogs</Text>
+          </View>
           <ScrollView
-            style={{ borderWidth: 1, flex: 1, backgroundColor: "#dedede" }}
+            style={{ flex: 1, backgroundColor: "#d3d3d3" }}
             horizontal={true}
             showsHorizontalScrollIndicator={false}
           >
+
             <TouchableOpacity
               // onPress={() => this.props.navigation.navigate("AddPost")}
               style={{
-                // alignSelf: 'center',
-                marginLeft: wp('2%'),
-                backgroundColor: "#dedede",
-                width: wp('25%'),
-                height: hp('25%'),
-                alignItems: 'center',
-                borderWidth: 1,
+                backgroundColor: "#d3d3d3",
+                width: 130,
+                height: 247,
               }}
             >
+              <View style={{ padding: 10 }}>
+                <Image
+                  source={require("../../assets/home.jpg")}
+                  style={{
+                    height: 160,
+                    width: 110,
 
-              <Image
-                source={require("../../assets/home.jpg")}
-                style={{
-                  width: wp('25%'),
-                  height: hp('25%'),
-
-                  borderRadius: 10,
-                }}
-              ></Image>
-              <View
-                style={{
-                  backgroundColor: "#e8e9eb",
-                  height: 90,
-                  marginTop: -18,
-                  width: 110,
-                  borderBottomEndRadius: 10,
-                  alignItems: "center",
-                  borderBottomStartRadius: 10,
-                }}
-              >
+                    borderRadius: 10,
+                  }}
+                ></Image>
                 <View
                   style={{
-                    borderRadius: 25,
-                    backgroundColor: "#1770e4",
+                    backgroundColor: "#e8e9eb",
+                    height: 90,
+                    marginTop: -18,
+                    width: 110,
+                    borderBottomEndRadius: 10,
                     alignItems: "center",
-                    justifyContent: "center",
-                    borderWidth: 2,
-                    borderColor: "white",
-                    width: 35,
-                    height: 35,
-                    marginTop: -15,
+                    borderBottomStartRadius: 10,
                   }}
                 >
-                  <AntDesign name="plus" size={24} color="white" />
+                  <View
+                    style={{
+                      borderRadius: 25,
+                      backgroundColor: "#1770e4",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      borderWidth: 2,
+                      borderColor: "white",
+                      width: 35,
+                      height: 35,
+                      marginTop: -15,
+                    }}
+                  >
+
+                  </View>
+
+                  <Text
+                    style={{
+                      alignSelf: "center",
+                      textAlign: "center",
+                      color: "white",
+                      width: 70,
+                      fontSize: 15,
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Creat a Blog
+                  </Text>
                 </View>
-
-                <Text
-                  style={{
-                    alignSelf: "center",
-                    textAlign: "center",
-                    color: "white",
-                    width: 70,
-                    fontSize: 15,
-                    fontWeight: "bold",
-                  }}
-                >
-                  Creat a Blog
-                </Text>
               </View>
-
             </TouchableOpacity>
           </ScrollView>
         </View>
+        <View
+          style={{
+            backgroundColor: "#d3d3d3",
+            width: wp('100%'),
+            height: hp('40%'),
 
-        <ScrollView
-          style={{ borderWidth: 1, flex: 1, backgroundColor: "#dedede" }}
-          horizontal={true}
-          showsHorizontalScrollIndicator={false}
-        >
-          <TouchableOpacity
-            // onPress={() => this.props.navigation.navigate("AddPost")}
+          }}>
+          <View
             style={{
               backgroundColor: "#dedede",
-              width: 130,
-              height: 247,
-            }}
-          >
-            <View style={{ padding: 10 }}>
-              <Image
-                source={require("../../assets/home.jpg")}
-                style={{
-                  height: 160,
-                  width: 110,
+              width: wp('100%'),
+              height: hp('7%'),
 
-                  borderRadius: 10,
-                }}
-              ></Image>
-              <View
-                style={{
-                  backgroundColor: "#e8e9eb",
-                  height: 90,
-                  marginTop: -18,
-                  width: 110,
-                  borderBottomEndRadius: 10,
-                  alignItems: "center",
-                  borderBottomStartRadius: 10,
-                }}
-              >
-                <View
-                  style={{
-                    borderRadius: 25,
-                    backgroundColor: "#1770e4",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    borderWidth: 2,
-                    borderColor: "white",
-                    width: 35,
-                    height: 35,
-                    marginTop: -15,
-                  }}
-                >
-                  <AntDesign name="plus" size={24} color="white" />
-                </View>
+            }}>
+            <Text style={{
+              marginTop: hp('1%'), marginLeft: wp('2%'),
+              fontSize: wp('7%'),
+              fontWeight: 'bold',
 
-                <Text
-                  style={{
-                    alignSelf: "center",
-                    textAlign: "center",
-                    color: "white",
-                    width: 70,
-                    fontSize: 15,
-                    fontWeight: "bold",
-                  }}
-                >
-                  Creat a Blog
-                </Text>
-              </View>
-            </View>
-          </TouchableOpacity>
-        </ScrollView>
+
+            }}>Nurse's Dose Blogs</Text>
+          </View>
+          <FlatList
+
+            data={HOSTS}
+            style={styles.gridView}
+            staticDimension={115}
+            // fixed
+            horizontal={true}
+            spacing={25}
+            // keyExtractor={item.key}
+            renderItem={({ item }) => (
+              <>
+
+                <TouchableOpacity style={{
+                  marginLeft: wp('2%'),
+                  marginTop: hp('2%'),
+                  backgroundColor: "#d3d3d3",
+                  width: wp('50%'),
+                  height: hp('27%'),
+                  alignItems: 'center',
+
+                }}>
+                  <Image style={{
+                    width: wp('44%'),
+                    height: hp('22%'),
+
+
+                  }} source={item.p} />
+                  <Text style={{
+                    fontSize: wp('5%'),
+                    fontWeight: 'bold',
+                    color: 'white',
+                    marginTop: hp('1%')
+
+                  }}>{item.name}</Text>
+                </TouchableOpacity>
+
+              </>
+            )}
+          />
+        </View>
+        <View
+          style={{
+            backgroundColor: "#d3d3d3",
+            width: wp('100%'),
+            height: hp('40%'),
+            borderBottomWidth: 1,
+            marginTop: hp('2%')
+
+          }}>
+          <Text style={{
+            marginTop: hp('1%'), marginLeft: wp('2%'),
+            fontSize: wp('7%'),
+            fontWeight: 'bold'
+
+          }}>Stay Informed</Text>
+
+          <View
+            style={{
+              flexDirection: 'row',
+              backgroundColor: "#d3d3d3",
+              width: wp('95%'),
+              height: hp('8%'),
+              borderBottomWidth: 1,
+              justifyContent: 'space-between',
+              alignSelf: 'center',
+              alignItems: 'center'
+
+            }}>
+            <Text style={{
+
+              fontSize: wp('4.5%'),
+              fontWeight: '600'
+
+            }}>For Guest</Text>
+            <Text style={{
+              fontSize: wp('4.5%'),
+              fontWeight: '600'
+
+            }}>For Host</Text>
+
+
+          </View>
+
+          <View
+            style={{
+              flexDirection: 'row',
+              backgroundColor: "#d3d3d3",
+              width: wp('95%'),
+              height: hp('8%'),
+              borderBottomWidth: 1,
+
+              justifyContent: 'space-between',
+              alignSelf: 'center',
+              alignItems: 'center'
+
+            }}>
+            <Text style={{
+
+              fontSize: wp('4.5%'),
+              fontWeight: 'bold'
+
+            }}>Our COVID-19 response</Text>
+            <Text style={{
+              fontSize: wp('4.5%'),
+              fontWeight: 'bold'
+
+            }}>Message From</Text>
+
+
+          </View>
+
+          <View
+            style={{
+              flexDirection: 'row',
+              backgroundColor: "#d3d3d3",
+              width: wp('95%'),
+              height: hp('8%'),
+              borderBottomWidth: 1,
+
+              justifyContent: 'space-between',
+              alignSelf: 'center',
+              alignItems: 'center'
+
+            }}>
+            <Text style={{
+
+              fontSize: wp('4.5%'),
+              fontWeight: 'bold'
+
+            }}>Cancellation Option</Text>
+            <Text style={{
+              fontSize: wp('4.5%'),
+              fontWeight: 'bold'
+
+            }}>Resources for</Text>
+
+
+          </View>
+          <View
+            style={{
+              flexDirection: 'row',
+              backgroundColor: "#d3d3d3",
+              width: wp('95%'),
+              height: hp('8%'),
+              borderBottomWidth: 1,
+
+              justifyContent: 'space-between',
+              alignSelf: 'center',
+              alignItems: 'center'
+
+            }}>
+            <Text style={{
+
+              fontSize: wp('4.5%'),
+              fontWeight: 'bold'
+
+            }}>Help Center</Text>
+            <Text style={{
+              fontSize: wp('4.5%'),
+              fontWeight: 'bold'
+
+            }}>Providing from</Text>
+
+
+          </View>
+
+        </View>
       </ScrollView>
     </View>
   );

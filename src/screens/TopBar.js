@@ -9,6 +9,7 @@ import Stays from './Stays';
 import Hospitals from './Hospitals'
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 const Tab = createMaterialTopTabNavigator();
 const MyTabs = () => {
@@ -28,34 +29,62 @@ const MyTabs = () => {
                 name='Home'
                 component={HomeScreen}
                 options={{
+                    tabBarLabel: () =>
+                        <View style={{ height: hp('7%'), width: wp('15%'), justifyContent: 'center', alignItems: 'center' }}>
+                            <Image style={{ height: hp('3%'), width: wp('7%') }}
+                                source={require('../../assets/home.png')} />
+                            <Text style={{ marginTop: hp('1%'), color: 'gray', fontSize: wp('3%'), fontWeight: '600' }}>HOME</Text>
+                        </View>
+                }}
+            />
+            <Tab.Screen
+                name='Inbox'
+                component={InboxScreen}
+                options={{
+                    tabBarLabel: () =>
+                        <View style={{ height: hp('7%'), width: wp('16%'), justifyContent: 'center', alignItems: 'center' }}>
+                            <Image style={{ height: hp('3%'), width: wp('8.2%') }}
+                                source={require('../../assets/inbox.png')} />
+                            <Text style={{ marginTop: hp('1%'), color: 'gray', fontSize: wp('3%'), fontWeight: '600' }}>INBOX</Text>
+                        </View>
+                }}
+            />
+            <Tab.Screen
+                name='Hospitals'
+                component={Hospitals}
+                options={{
+                    tabBarLabel: () =>
+                        <View style={{ height: hp('7%'), width: wp('20%'), justifyContent: 'center', alignItems: 'center' }}>
+                            <Image style={{ height: hp('3%'), width: wp('7%') }}
+                                source={require('../../assets/hospital.png')} />
+                            <Text style={{ marginTop: hp('1%'), color: 'gray', fontSize: wp('3%'), fontWeight: '600' }}>HOSPITALS</Text>
+                        </View>
+                }}
+            />
+            <Tab.Screen
+                name='Stays'
+                component={Stays}
 
-                    tabBarIcon:
-                        // <Ionicons name="home" size={23} color="blue" style={{ marginLeft: 5 }} />
-                        <View>
-                            <Image resizeMode='contain' source={require('../../assets/home.png')} />
-                            <Text>Home</Text>
+                options={{
+                    tabBarLabel: () =>
+                        <View style={{ height: hp('7%'), width: wp('15%'), justifyContent: 'center', alignItems: 'center' }}>
+                            <Image style={{ height: hp('3%'), width: wp('7%') }}
+                                source={require('../../assets/stays.png')} />
+                            <Text style={{ marginTop: hp('1%'), color: 'gray', fontSize: wp('3%'), fontWeight: '600' }}>STAYS</Text>
                         </View>
                 }}
             />
             <Tab.Screen
                 name='Friends'
                 component={FriendsScreen}
-                options={{ tabBarLabel: 'Friends' }}
-            />
-            <Tab.Screen
-                name='Inbox'
-                component={InboxScreen}
-                options={{ tabBarLabel: 'Inbox' }}
-            />
-            <Tab.Screen
-                name='Hospitals'
-                component={Hospitals}
-                options={{ tabBarLabel: 'Hospitals' }}
-            />
-            <Tab.Screen
-                name='Stays'
-                component={Stays}
-                options={{ tabBarLabel: 'Stays' }}
+                options={{
+                    tabBarLabel: () =>
+                        <View style={{ height: hp('7%'), width: wp('15%'), justifyContent: 'center', alignItems: 'center' }}>
+                            <Image style={{ height: hp('3%'), width: wp('7%') }}
+                                source={require('../../assets/friends.png')} />
+                            <Text style={{ marginTop: hp('1%'), color: 'gray', fontSize: wp('3%'), fontWeight: '600' }}>FRIENDS</Text>
+                        </View>
+                }}
             />
 
         </Tab.Navigator>
