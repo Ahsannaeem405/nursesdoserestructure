@@ -374,18 +374,19 @@ const HomeScreen = props => {
               <>
 
                 <TouchableOpacity style={{
-                  marginLeft: wp('1%'),
+
                   marginTop: hp('1%'),
                   backgroundColor: "#d3d3d3",
                   width: wp('15%'),
-                  height: hp('7%'),
+                  height: hp('9%'),
                   alignItems: 'center',
 
 
                 }}>
                   <Image style={{
+                    marginLeft: wp('1%'),
                     width: wp('17%'),
-                    height: hp('7.5%'),
+                    height: hp('9%'),
                   }} source={item.p} />
                 </TouchableOpacity>
 
@@ -398,7 +399,7 @@ const HomeScreen = props => {
           style={{
             backgroundColor: "#dedede",
             width: wp('100%'),
-            height: hp('40%'),
+            height: hp('50%'),
           }}>
 
           <View
@@ -426,16 +427,16 @@ const HomeScreen = props => {
               // onPress={() => this.props.navigation.navigate("AddPost")}
               style={{
                 backgroundColor: "#d3d3d3",
-                width: 130,
-                height: 247,
+                width: wp('35%'),
+                height: hp('18%'),
               }}
             >
               <View style={{ padding: 10 }}>
                 <Image
                   source={require("../../assets/home.jpg")}
                   style={{
-                    height: 160,
-                    width: 110,
+                    width: wp('30.5%'),
+                    height: hp('27%'),
 
                     borderRadius: 10,
                   }}
@@ -504,7 +505,7 @@ const HomeScreen = props => {
               fontWeight: 'bold',
 
 
-            }}>Nurse's Dose Blogs</Text>
+            }}>Nurse's Dose Hosts</Text>
           </View>
           <FlatList
 
@@ -523,13 +524,13 @@ const HomeScreen = props => {
                   marginTop: hp('2%'),
                   backgroundColor: "#d3d3d3",
                   width: wp('50%'),
-                  height: hp('27%'),
+                  height: hp('30%'),
                   alignItems: 'center',
 
                 }}>
                   <Image style={{
                     width: wp('44%'),
-                    height: hp('22%'),
+                    height: hp('25%'),
 
 
                   }} source={item.p} />
