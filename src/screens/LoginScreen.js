@@ -13,9 +13,12 @@ import {
 } from 'react-native';
 const LoginScreen = props => {
   return (
-    <View style={styles.mainContainer}>
+    <ScrollView style={styles.mainContainer}>
 
-
+      <TouchableOpacity style={styles.btn}
+        onPress={() => props.navigation.navigate('AdminMainDashboard')} >
+        <Text style={styles.btnText}>Login as Admin</Text>
+      </TouchableOpacity>
       <View style={styles.logoContainer} >
         <Image source={require("../../assets/icon.png")} style={styles.logo} />
       </View>
@@ -75,7 +78,7 @@ const LoginScreen = props => {
 
 
 
-    </View>
+    </ScrollView>
 
   );
 };

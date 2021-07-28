@@ -44,7 +44,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDWyPSOw0VkgpRwtlzXHbBQAKpii2wG90Y" /> <!-- Needs to be explicitly declared on P+ -->
+            android:value="AIzaSyA-KS8ejyt4XuqokEVHiAHT_SHGzOk1BCg" /> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
