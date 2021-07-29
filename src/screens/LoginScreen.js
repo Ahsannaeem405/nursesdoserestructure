@@ -25,9 +25,7 @@ const LoginScreen = props => {
     else {
       try {
         const result = await auth().signInWithEmailAndPassword(email, password)
-        result.then(() => {
-          props.navigation.navigate('Dashboard')
-        })
+
         console.log(result);
       } catch (e) {
         console.log(e)
@@ -83,7 +81,7 @@ const LoginScreen = props => {
         onPress={() => {
 
           userSignIn()
-          // props.navigation.navigate('Dashboard');
+          props.navigation.navigate('Dashboard');
         }} >
         <Text style={styles.btnText}>Login</Text>
       </TouchableOpacity>
