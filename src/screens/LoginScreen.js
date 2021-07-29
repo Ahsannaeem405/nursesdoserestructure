@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import styles from "../styles/AuthStyles";
+import auth from '@react-native-firebase/auth';
 import {
   Text,
   Image,
@@ -9,9 +10,31 @@ import {
   ScrollView,
   StyleSheet,
   TextInput,
-  TouchableOpacity
+  TouchableOpacity,
+  Alert
 } from 'react-native';
 const LoginScreen = props => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+
+  const userSignIn = async () => {
+    if (!email || !password) {
+      Alert.alert('Please Enter Both Fields')
+    }
+    else {
+      try {
+        const result = await auth().signInWithEmailAndPassword(email, password)
+        result.then(() => {
+          props.navigation.navigate('Dashboard')
+        })
+        console.log(result);
+      } catch (e) {
+        console.log(e)
+      }
+    }
+  }
+
   return (
     <ScrollView style={styles.mainContainer}>
 
@@ -36,7 +59,7 @@ const LoginScreen = props => {
             <TextInput
               placeholder="Enter Your Email"
               style={{ flex: 1 }}
-              onChangeText={(val) => this.updateInputVal(val, "email")}
+              onChangeText={text => setEmail(text)}
             />
             <FontAwesome5 name="user" size={16} />
           </View>
@@ -48,7 +71,7 @@ const LoginScreen = props => {
               secureTextEntry={true}
               placeholder="***********"
               style={{ flex: 1 }}
-              onChangeText={(val) => this.updateInputVal(val, "password")}
+              onChangeText={text => setPassword(text)}
               maxLength={15}
             />
             <Ionicons name="ios-key-outline" size={16} />
@@ -56,7 +79,12 @@ const LoginScreen = props => {
         </View>
       </View>
 
-      <TouchableOpacity style={styles.btn} onPress={() => props.navigation.navigate('Dashboard')} >
+      <TouchableOpacity style={styles.btn}
+        onPress={() => {
+
+          userSignIn()
+          // props.navigation.navigate('Dashboard');
+        }} >
         <Text style={styles.btnText}>Login</Text>
       </TouchableOpacity>
       <TouchableOpacity

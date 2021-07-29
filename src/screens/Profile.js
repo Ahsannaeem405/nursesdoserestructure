@@ -11,7 +11,7 @@ import {
   Linking,
 } from "react-native";
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
-
+import auth from '@react-native-firebase/auth';
 // import { Feather } from "@expo/vector-icons";
 // import { Ionicons } from "@expo/vector-icons";
 // import { MaterialCommunityIcons } from "@expo/vector-icons";
@@ -40,7 +40,7 @@ import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-nat
 //   firebase.app(); // if already initialized, use that one
 // }
 
-const Profile = () => {
+const Profile = (props, navigation) => {
 
   return (
     <SafeAreaView style={{ backgroundColor: "white" }}>
@@ -454,6 +454,10 @@ const Profile = () => {
               marginLeft: wp('1%'),
               flexDirection: "row",
               justifyContent: 'space-between'
+            }}
+            onPress={() => {
+              auth().signOut()
+              props.navigation.navigate('Login')
             }}
           >
 

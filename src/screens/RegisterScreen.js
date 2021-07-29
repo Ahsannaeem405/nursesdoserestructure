@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import styles from "../styles/AuthStyles";
+import auth from '@react-native-firebase/auth';
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+
 import {
   Text,
   View,
@@ -10,10 +13,27 @@ import {
   ScrollView,
   Image,
   TextInput,
-  TouchableOpacity
+  TouchableOpacity,
+  Alert
 } from 'react-native';
 
 const RegisterScreen = props => {
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const userSignUp = async () => {
+    if (!email || !password) {
+      Alert.alert('Please Enter Both Fields')
+    }
+    else {
+      try {
+        await auth().createUserWithEmailAndPassword(email, password)
+      } catch (e) {
+        Alert.alert('Something Went Wrong')
+      }
+    }
+  }
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
       <View style={styles.mainContainer}>
@@ -29,7 +49,7 @@ const RegisterScreen = props => {
         </View>
 
         {/* username */}
-        <View style={{ marginTop: Theme.hp("5%") }}>
+        <View style={{ marginTop: hp("5%") }}>
           <View style={styles.textInputContainerMain}>
             <Text style={styles.label}>Username</Text>
             <View style={styles.textInputContainerSub}>
@@ -51,7 +71,7 @@ const RegisterScreen = props => {
                 type="email"
                 placeholder="@example.com"
                 style={{ flex: 1 }}
-
+                onChangeText={text => setEmail(text)}
 
               />
               <MaterialCommunityIcons name="email-open-outline" size={16} />
@@ -67,7 +87,7 @@ const RegisterScreen = props => {
                 style={{ flex: 1 }}
                 secureTextEntry={true}
                 maxLength={15}
-
+                onChangeText={text => setPassword(text)}
               />
               <Ionicons name="ios-key-outline" size={16} />
             </View>
@@ -96,14 +116,21 @@ const RegisterScreen = props => {
             </View>
           </View>
         </View>
-        <TouchableOpacity onPress={() => this.registerUser()}>
+        <TouchableOpacity
+          onPress={() => {
+            props.navigation.navigate("Login")
+            userSignUp();
+          }}>
           <View style={styles.btn}>
             <Text style={styles.btnText}>Register</Text>
           </View>
         </TouchableOpacity>
         <View style={styles.forgotContainer}>
           <TouchableOpacity
-            onPress={() => props.navigation.navigate("Login")}
+            onPress={() => {
+              props.navigation.navigate("Login")
+              userSignUp();
+            }}
           >
             <Text style={styles.alreadyAcoountText}>
               Already have an Account

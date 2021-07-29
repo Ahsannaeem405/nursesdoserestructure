@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919431391565",
+    "project_id": "nurse-dose-9c8b7",
+    "storage_bucket": "nurse-dose-9c8b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919431391565:android:8a1dae6254d22e740d6f04",
+        "android_client_info": {
+          "package_name": "com.nursedose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919431391565-f1fg29fjb8ot2s4noikcp6aagqt2j0eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0oQ6CDJM58rW2OeYL1DUhT5yNoxuHoAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919431391565-f1fg29fjb8ot2s4noikcp6aagqt2j0eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

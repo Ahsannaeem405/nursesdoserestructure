@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_hosp.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_hosp.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_search.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_search.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_hosting.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_hosting.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_house.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_house.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowup.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_home.jpg.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_home.jpg"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_hospital.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_hospital.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_adminimg.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_adminimg.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_close.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_like1.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_like1.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_stays.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_stays.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_inbox.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_inbox.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_host1.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_host1.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_backarrow.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_backarrow.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_arrowdown.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_pin.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_pin.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_tick.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_user1.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_user1.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_feedback.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_feedback.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_bell.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_bell.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_logout.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_logout.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowdown.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_friends.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_friends.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_browse.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_browse.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_share.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_share.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_addhospital.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_addhospital.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_comments.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_comments.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_qmark.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_qmark.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backiconmask.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/raw_app.json.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/raw/app.json"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_profile1.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_profile1.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_date.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_date.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_money.jpg.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_money.jpg"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_terms.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_terms.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_tick.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_light_icons_arrowup.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_hamburger.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_hamburger.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_profile.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_profile.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_home1.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_home1.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_userperson.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_userperson.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_download.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_download.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_pen.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_pen.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedropdownpicker_src_themes_dark_icons_close.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_icon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_icon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_gift.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_gift.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_like.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_like.png"
+    },
+    {
+        "merged": "/Users/mac/NurseDose/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_person.png.flat",
+        "source": "/Users/mac/NurseDose/android/app/build/generated/res/react/release/drawable-mdpi/assets_person.png"
+    }
+]

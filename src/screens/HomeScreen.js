@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
-
+import auth from '@react-native-firebase/auth';
 
 const PROFILES = [
   {
@@ -110,25 +110,25 @@ const HOSTS = [
   {
     key: '1',
     name: 'HOST 1',
-    p: require('../../assets/home.png')
+    p: require('../../assets/home1.png')
 
   },
   {
     key: '2',
     name: 'HOST 1',
-    p: require('../../assets/home.png')
+    p: require('../../assets/home1.png')
 
   },
   {
     key: '3',
     name: 'HOST 1',
-    p: require('../../assets/home.png')
+    p: require('../../assets/home1.png')
 
   },
   {
     key: '4',
     name: 'HOST 1',
-    p: require('../../assets/home.png')
+    p: require('../../assets/home1.png')
 
 
   },
@@ -141,13 +141,13 @@ const HOSTS = [
   {
     key: '6',
     name: 'HOST 1',
-    p: require('../../assets/home.png')
+    p: require('../../assets/home1.png')
 
   },
   {
     key: '7',
     name: 'HOST 1',
-    p: require('../../assets/home.png')
+    p: require('../../assets/home1.png')
 
   }
 ];
@@ -162,6 +162,25 @@ const HomeScreen = props => {
         }}>
         <ScrollView>
           <SafeAreaView style={{ flex: 1, color: "#ffffff" }}>
+            {/* <View
+              style={{ width: wp("100%"), height: hp('10%'), justifyContent: 'center', alignItems: 'center', backgroundColor: "#000000" }}
+            >
+              <TouchableOpacity
+                onPress={() => {
+                  // props.navigation.navigate('Login')
+                  auth().signOut()
+
+                }}
+              >
+
+                <Text
+                  style={{ fontSize: wp('4%'), color: "#ffffff", textDecorationLine: "underline" }}
+                >
+                  Logout
+                </Text>
+
+              </TouchableOpacity>
+            </View> */}
             <View
               style={{ width: wp("100%"), height: hp('10%'), justifyContent: 'center', alignItems: 'center', backgroundColor: "#000000" }}
             >

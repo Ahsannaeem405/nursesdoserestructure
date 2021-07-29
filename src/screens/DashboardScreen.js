@@ -4,6 +4,7 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 // import HomeScreen from './HomeScreen';
 // import InboxScreen from "./InboxScreen";
 import TabTopBarNavigator from './TopBar';
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 import {
 	Text,
@@ -12,6 +13,7 @@ import {
 	TouchableOpacity
 } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import HomeScreen from './HomeScreen';
 
 
 const DashboardScreen = props => {
@@ -21,6 +23,7 @@ const DashboardScreen = props => {
 		<SafeAreaProvider>
 			{/* <Text>Dashboard</Text> */}
 			<TabTopBarNavigator />
+			{/* <HomeScreen /> */}
 		</SafeAreaProvider>
 	);
 

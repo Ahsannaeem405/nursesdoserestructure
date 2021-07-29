@@ -33,7 +33,7 @@ const MyTabs = () => {
                     tabBarLabel: () =>
                         <View style={{ height: hp('7%'), width: wp('15%'), justifyContent: 'center', alignItems: 'center' }}>
                             <Image style={{ height: hp('4%'), width: wp('7%') }}
-                                source={require('../../assets/home.png')} />
+                                source={require('../../assets/home1.png')} />
                             <Text style={{ marginTop: hp('1%'), color: 'gray', fontSize: wp('3%'), fontWeight: '600' }}>HOME</Text>
                         </View>
                 }}

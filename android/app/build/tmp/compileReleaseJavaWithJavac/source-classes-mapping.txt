@@ -1,0 +1,9 @@
+com/nursedose/BuildConfig.java
+ com.nursedose.BuildConfig
+com/nursedose/MainActivity.java
+ com.nursedose.MainActivity
+com/nursedose/MainApplication.java
+ com.nursedose.MainApplication
+ com.nursedose.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

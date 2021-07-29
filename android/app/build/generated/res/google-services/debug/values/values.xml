@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">919431391565-f1fg29fjb8ot2s4noikcp6aagqt2j0eg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">919431391565</string>
+    <string name="google_api_key" translatable="false">AIzaSyB0oQ6CDJM58rW2OeYL1DUhT5yNoxuHoAA</string>
+    <string name="google_app_id" translatable="false">1:919431391565:android:8a1dae6254d22e740d6f04</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0oQ6CDJM58rW2OeYL1DUhT5yNoxuHoAA</string>
+    <string name="google_storage_bucket" translatable="false">nurse-dose-9c8b7.appspot.com</string>
+    <string name="project_id" translatable="false">nurse-dose-9c8b7</string>
+</resources>
